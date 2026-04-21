@@ -1,3 +1,26 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="180" height="180" rx="36" fill="#FF3C00"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="100" height="100" rx="18" fill="#000000"/>
+  
+  <text 
+    x="50%" 
+    y="65%" 
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+    font-size="52" 
+    font-weight="bold" 
+    fill="#FFFFFF" 
+    text-anchor="middle" 
+    letter-spacing="8"
+    filter="url(#glow)">
+    WW
+  </text>
 </svg>
