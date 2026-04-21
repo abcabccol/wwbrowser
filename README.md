@@ -1,4 +1,4 @@
-/**
+`/**
  * ARCHITECT & ABCABCCOL - WW-VIEWER CORE ENGINE
  * Özellikler: Veri Akışı, Dosya Bağlama, Saniyelik Otomatik Kayıt
  */
@@ -78,3 +78,4 @@ class WWViewerEngine {
     return URL.createObjectURL(blob);
   }
 }
+`
